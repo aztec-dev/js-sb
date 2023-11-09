@@ -8,9 +8,13 @@
 </head>
 <body>
 
-    <form action="" name="signInForm">
-        <label for="FirsName">First Name:</label><br>
-        <input type="text" id="FirsName" name="Name">
+<!-- Basic sign in form -->
+    <form action="test_page.html" name="signInForm" onsubmit="return validateForm()" method="post">
+        <label for="firstName">First Name:</label><br>
+        <input type="text" id="firstName" name="fName"><br>
+        <label for="surName">Surname:</label><br>
+        <input type="text" id="surName" name="surName"><br>
+        <input type="submit" id="submitBtn" value="Submit">
     </form>
     
 </body>
